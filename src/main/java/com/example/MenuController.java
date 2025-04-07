@@ -14,8 +14,8 @@ public class MenuController {
     private Button settingsButton;
 
     @FXML
-    void switchToGame(MouseEvent event) {
-
+    void switchToGame(MouseEvent event) throws IOException {
+        App.setRoot("07042025-SpaceWeatherGameGUI");
     }
 
     @FXML
